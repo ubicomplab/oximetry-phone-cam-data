@@ -1,6 +1,5 @@
 # process_data_spo2.py
-# Library to support retrieving data from SpO2 dataset
-# Link to paper when published
+# Library to support retrieving data from SpO2 raw video data
 
 # Imports --------------------------------------------
 
