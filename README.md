@@ -1,5 +1,6 @@
-# oximetry-phone-cam-data
-This repository contains the open source data source repository to share smartphone camera oximetry data from Viswanath et al 2020 [include link].
+# Oximetry-phone-cam-data
+## Open source data for smartphone camera oximetry
+This repository contains the open source data source repository to share smartphone camera oximetry data from Viswanath et al 2020 [include link].  It can be used to attempt to compute SpO2 and predict risk of hypoxemia using a smartphone camera via machine learning or analytical methods.  The data is provided free and open source for the community to use!
 
 ## Getting Started
 Clone the repo and run ??.ipynb to get started!
