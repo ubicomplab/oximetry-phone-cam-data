@@ -3,7 +3,7 @@
 ## Purpose
 **Open source data for smartphone camera oximetry, sensing SpO2 and hypoxemia risk on a clinically relevant spread of data**
 
-This repository contains the open source data from the smartphone camera oximetry study by Viswanath et al in 2020 [include link].  It can be used to attempt to compute SpO2 and predict risk of hypoxemia using a smartphone camera via machine learning or analytical methods.  The data is the first gathered using a smartphone camera on a clinically relevant spread of SpO2 levels (65%-100%).
+This repository contains the open source data from the smartphone camera oximetry study by Hoffman et al in 2021 [include link].  It can be used to attempt to compute SpO2 and predict risk of hypoxemia using a smartphone camera via machine learning or analytical methods.  The data is the first gathered using a smartphone camera on a clinically relevant spread of SpO2 levels (65%-100%).
 
 The data was gathered by researchers at the University of Washington and the University of California, San Diego, and is provided free and open source for the community to use for future projects.
 
@@ -37,7 +37,7 @@ For more details, see the publication in IMWUT from 2020: [include link].
 Go ahead and try different models:
 * Analytical (eg. ratio-of-ratios)
 * Deep Learning
-* Linear 
+* Linear Regression
 * Or, think of your own!
 
 ## Citation
