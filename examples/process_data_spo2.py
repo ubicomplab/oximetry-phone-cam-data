@@ -15,9 +15,9 @@ loadDataFlag = 0 # 0 for loading and computing from raw videos (and saving), 1 f
 
 # Presets --------------------------------------------
 
-dataLoc = './/data//raw-videos//raw//raw' # extract as seen in README-videos.md
+dataLoc = './data/raw-videos/raw' # extract as seen in README-videos.md
 dataDir = Path.home().joinpath(Path.cwd().parent,dataLoc)
-procLoc = './/data//ppg-csv' # processed data location
+procLoc = './data/ppg-csv' # processed data location
 procDir = Path.home().joinpath(Path.cwd().parent,procLoc)
 patientNums = np.arange(100001,100007,1)
 
@@ -33,12 +33,14 @@ def createLtRt(dataDir):
 # given a directory, patient number and file type
 def findFile(path,num,type):
     fileList = list(Path(path).rglob('*'+type))
+    file = None
     for f in fileList:
         if str(num) in f.name:
             file = f
         else: # couldn't find the file
             #print('Could not find file num:'+str(num)+' with path:'+str(type)+' at path:'+str(path.name))
             pass
+    
     return file
 
 # Function to return an array of R, G, B values
