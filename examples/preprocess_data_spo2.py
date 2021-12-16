@@ -12,10 +12,10 @@ import pandas as pd
 
 PATIENT_NUMS = ['100001', '100002', '100003', '100004', '100005', '100006']
 
-PROCESSED_DATA_DIR = '../data/ppg-csv/'
+PROCESSED_DATA_DIR = '..//data//ppg-csv//'
 FEATS = ["left-r","left-g","left-b","right-r","right-g","right-b"]
 
-GROUNDTRUTH_DATA = '../data/gt/'
+GROUNDTRUTH_DATA = '..//data//gt//'
 GT_ROWS = ['sp02_1', 'sp02_2', 'sp02_3', 'sp02_4', 'sp02_5']
 
 # Functions --------------------------------------------
@@ -89,7 +89,7 @@ def build_data_and_groundtruth():
     groundtruth = groundtruth.index_select(2,torch.arange(0,clip_to//30, dtype=torch.int64))
     dataset = dataset.index_select(2,torch.arange(0,clip_to, dtype=torch.int64))
 
-    with h5py.File('../data/preprocessed/all_uw_data.h5', 'w') as f:
+    with h5py.File('..//data//preprocessed//all_uw_data.h5', 'w') as f:
         dset = f.create_dataset("dataset", tuple(dataset.shape), dtype='f')
         dset[:] = dataset
         dset.attrs['features_key'] = FEATS
@@ -100,7 +100,7 @@ def build_data_and_groundtruth():
 
 def load_data_and_groundtruth():
     build_data_and_groundtruth()
-    with h5py.File('../data/preprocessed/all_uw_data.h5', 'r') as f:
+    with h5py.File('..//data//preprocessed//all_uw_data.h5', 'r') as f:
         data = f['dataset'][:]
         gt = f['groundtruth'][:]
     return data, gt

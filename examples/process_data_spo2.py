@@ -15,9 +15,9 @@ loadDataFlag = 0 # 0 for loading and computing from raw videos (and saving), 1 f
 
 # Presets --------------------------------------------
 
-dataLoc = './data/raw-videos/raw' # extract as seen in README-videos.md
+dataLoc = './/data//raw-videos//raw' # extract as seen in README-videos.md
 dataDir = Path.home().joinpath(Path.cwd().parent,dataLoc)
-procLoc = './data/ppg-csv' # processed data location
+procLoc = './/data//ppg-csv' # processed data location
 procDir = Path.home().joinpath(Path.cwd().parent,procLoc)
 patientNums = np.arange(100001,100007,1)
 
