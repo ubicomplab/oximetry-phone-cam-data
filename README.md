@@ -3,7 +3,7 @@
 ## Purpose
 **Open source data for smartphone camera oximetry, sensing SpO2 and hypoxemia risk on a clinically relevant spread of data**
 
-This repository contains the open source data from the smartphone camera oximetry study by Hoffman et al in 2021 [include link].  It can be used to attempt to compute SpO2 and predict risk of hypoxemia using a smartphone camera via machine learning or analytical methods.  The data is the first gathered using a smartphone camera on a clinically relevant spread of SpO2 levels (65%-100%).
+This repository contains the open source data from the smartphone camera oximetry study by Hoffman et al in 2021 [include link when available].  It can be used to attempt to compute SpO2 and predict risk of hypoxemia using a smartphone camera via machine learning or analytical methods.  The data is the first gathered using a smartphone camera on a clinically relevant spread of SpO2 levels (65%-100%).
 
 The data was gathered by researchers at the University of Washington and the University of California, San Diego, and is provided free and open source for the community to use for future projects.
 
@@ -26,7 +26,7 @@ There were 6 patients in this study (numbered 10001-10006).
 
 The smartphone oximetry data was collected in the form of MP4 videos, downloadable from: http://bit.ly/oxy-raw-z.  Each frame's R, G, and B values were averaged to create the csv files in data/ppg-csv.
 
-The ground truth data was collected from a few standard pulse oximeters attached to the subjects' other fingers.  That data can be found in data/gt.
+The ground truth data was collected from four standard pulse oximeters attached to the subjects' other fingers.  That data can be found in data/gt.
 
 ### Data Format Notes
 * Camera framerate = 30 Hz
@@ -44,6 +44,28 @@ Go ahead and try different models:
 * Deep Learning
 * Linear Regression
 * Or, think of your own!
+
+### Ground Truth Labels
+A metadata file can be found in data/gt/metadata.csv, which describes the fields listed in the metadata files.  A table is also included below:
+| Label        | Description                                                           |
+|--------------|-----------------------------------------------------------------------|
+| SpO2 1       | SpO2 reading from PPG of pulse ox 1 (3900P TT+ 9.000/11.000) (%)      |
+| SpO2 2       | SpO2 reading from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0) (%)    |
+| SpO2 3       | Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5)   |
+| SpO2 4       | SpO2 reading from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0) (%)    |
+| SpO2 5       | SpO2 reading from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II) (%) |
+| Pulse 1      | Heart rate from PPG of pulse ox 1 (3900P TT+ 9.000/11.000) (bpm)      |
+| Pulse 2      | Heart rate from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0) (bpm)    |
+| Pulse 3      | Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5)   |
+| Pulse 4      | Heart rate from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0) (bpm)    |
+| Pulse 5      | Heart rate from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II) (bpm) |
+| PI 1         | Perfusion Index from PPG of pulse ox 1 (3900P TT+ 9.000/11.000)       |
+| PI 2         | Perfusion Index from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0)     |
+| PI 3         | Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5)   |
+| PI 4         | Perfusion Index from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0)     |
+| PI 5         | Perfusion Index from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II)  |
+| ECG 3        | Heart rate from ECG of pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5) |
+| Rig FiO2     | Percentage of oxygen delivered to subjec in gas mixture (%)           |
 
 ## Citation
 If you use this data or code in your project, please cite it.  Here's the ACM format:
