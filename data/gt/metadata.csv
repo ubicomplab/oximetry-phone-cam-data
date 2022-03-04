@@ -1,0 +1,45 @@
+﻿Label,Description
+SpO2 1,SpO2 reading from PPG of pulse ox 1 (3900P TT+ 9.000/11.000) (%)
+SpO2 2,SpO2 reading from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0) (%)
+SpO2 3,Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5)
+SpO2 4,SpO2 reading from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0) (%)
+SpO2 5,SpO2 reading from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II) (%)
+Pulse 1,Heart rate from PPG of pulse ox 1 (3900P TT+ 9.000/11.000) (bpm)
+Pulse 2,Heart rate from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0) (bpm)
+Pulse 3,Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5)
+Pulse 4,Heart rate from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0) (bpm)
+Pulse 5,Heart rate from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II) (bpm)
+PI 1,Perfusion Index from PPG of pulse ox 1 (3900P TT+ 9.000/11.000)
+PI 2,Perfusion Index from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0)
+PI 3,Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5)
+PI 4,Perfusion Index from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0)
+PI 5,Perfusion Index from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II)
+Red Drv 1,Unknown
+IR Drv 1,Unknown
+DC Gain 1,Unknown
+AC Gain 1,Unknown
+Red Drv 2,Unknown
+IR Drv 2,Unknown
+DC Gain 2,Unknown
+AC Gain 2,Unknown
+Red Drv 3,Unknown
+IR Drv 3,Unknown
+DC Gain 3,Unknown
+AC Gain 3,Unknown
+Red Drv 4,Unknown
+IR Drv 4,Unknown
+DC Gain 4,Unknown
+AC Gain 4,Unknown
+Red Drv 5,Unknown
+IR Drv 5,Unknown
+DC Gain 5,Unknown
+AC Gain 5,Unknown
+ECG 3,Heart rate from ECG of pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5)
+FiO2 3,Unknown
+EtCO2 pct 3,Unknown
+EtCO2 mmHg 3,Unknown
+RR CO2 3,Unknown
+RR ECG 3,Unknown
+Insp TV 3,Unknown
+Exp TV 3,Unknown
+Rig FiO2,Percentage of oxygen delivered to subjec in gas mixture (%)

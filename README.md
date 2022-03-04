@@ -13,7 +13,13 @@ Clone the repo and run examples/visualization.ipynb to get started!
 More example code can be found in the examples directory using the preprocessed data.  If you want to use the raw video data, please see the "Data Format" section below for info on how to download it.
 
 ### Needed packages: 
-* [fill out on a fresh run]
+* pytorch
+* sklearn
+* scipy
+* pandas
+* matplotlib
+* jupyter
+
 
 ## Data Format
 There were 6 patients in this study (numbered 10001-10006).
@@ -28,10 +34,9 @@ The ground truth data was collected from a few standard pulse oximeters attached
 * Recording was started and stopped on the camera and the pulse oximeters at the same time
 
 ## Background
-SpO
 We performed a Varied Fractional Inspired Oxygen (Varied FiO2) study, which is a clinical development validation study in which test subjects are administered a controlled mixture of oxygen and nitrogen to lower their SpO2 level over a period of 12-16 minutes.  The patients had one finger from each hand on a phone camera, while the camera flash transmitted light through their fingertips for reflectance photoplethysmography at the Red, Green, and Blue wavelengths.
 
-For more details, see the publication in npj Digital Medicine from 2021: [include link].
+For more details, see the publication in npj Digital Medicine from 2022: [include link].
 
 ### Ideas
 Go ahead and try different models:
