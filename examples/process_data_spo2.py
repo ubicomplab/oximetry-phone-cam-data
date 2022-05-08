@@ -57,9 +57,10 @@ def getRawRGB(patientNum,dataDir):
     while count<vidLen:
         success, image = rawVid.read()
         # process the image for R, G, B
-        R0 = np.mean(image[:,:,0])
+        # the openCV package is using BGR protocol
+        B2 = np.mean(image[:,:,0])
         G1 = np.mean(image[:,:,1])
-        B2 = np.mean(image[:,:,2])
+        R0 = np.mean(image[:,:,2])
         rgbArray[count] = [R0,G1,B2]
         count += 1
     return rgbArray

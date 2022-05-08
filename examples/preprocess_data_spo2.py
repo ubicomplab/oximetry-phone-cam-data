@@ -27,11 +27,11 @@ Load patient data functions
 def load_data_for_patient(pnum):
     # Read data from Left
     fpath_left = PROCESSED_DATA_DIR + 'Left/' + pnum + '.csv'
-    data_left = torch.tensor(np.loadtxt(fpath_left).transpose())
+    data_left = torch.tensor(np.genfromtxt(fpath_left, delimiter=',',skip_header=1).transpose())
 
     # read data from Right
     fpath_right = PROCESSED_DATA_DIR + 'Right/' + pnum + '.csv'
-    data_right = torch.tensor(np.loadtxt(fpath_right).transpose())
+    data_right = torch.tensor(np.genfromtxt(fpath_right, delimiter=',',skip_header=1).transpose())
 
     # Stack uneven tensors into single tensor
     data = torch.zeros((6,max(data_left.shape[1], data_right.shape[1])))
