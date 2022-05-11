@@ -56,7 +56,7 @@ def load_data():
 Load groundtruth data functions
 """
 def load_groundtruth_for_patient(pnum):
-    fpath = GROUNDTRUTH_DATA + pnum + '.dat'
+    fpath = GROUNDTRUTH_DATA + pnum + '.csv'
     datContent = [i.strip().split() for i in open(fpath).readlines()]
     rows = []
 
