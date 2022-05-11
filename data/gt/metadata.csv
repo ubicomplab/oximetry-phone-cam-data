@@ -9,11 +9,11 @@ Pulse 2,Heart rate from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0) (bpm),bpm
 Pulse 3,Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5),Unknown
 Pulse 4,Heart rate from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0) (bpm),bpm
 Pulse 5,Heart rate from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II) (bpm),bpm
-PI 1,Perfusion Index from PPG of pulse ox 1 (3900P TT+ 9.000/11.000),N/A
-PI 2,Perfusion Index from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0),N/A
+PI 1,Perfusion Index from PPG of pulse ox 1 (3900P TT+ 9.000/11.000),index
+PI 2,Perfusion Index from PPG of pulse ox 2 (Nellcor N-600X V 1.6.0.0),index
 PI 3,Unfilled signal from pulse ox 3 (Safety Oxim 3 ECG Datex-Ohmeda S5),Unknown
-PI 4,Perfusion Index from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0),N/A
-PI 5,Perfusion Index from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II),N/A
+PI 4,Perfusion Index from PPG of pulse ox 4 (Nellcor N-600X V 1.6.0.0),index
+PI 5,Perfusion Index from PPG of pulse ox 5 (Masimo Radical 7 Rainbow II),index
 Red Drv 1,Unknown,Unknown
 IR Drv 1,Unknown,Unknown
 DC Gain 1,Unknown,Unknown
