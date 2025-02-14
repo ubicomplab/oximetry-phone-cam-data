@@ -3,7 +3,7 @@
 ## Purpose
 **Open source data for smartphone camera oximetry, sensing SpO2 and hypoxemia risk on a clinically relevant spread of data**
 
-This repository contains the open source data from the smartphone camera oximetry study by [Hoffman et al in 2022](https://arxiv.org/abs/2104.00038).  It can be used to attempt to infer blood oxygen saturation (SpO2) and classify risk of hypoxemia using videos gathered via a smartphone camera using machine learning or analytical methods.  The data is the first gathered using a smartphone camera on a clinically relevant spread of SpO2 levels (70%-100%).
+This repository contains the open source data from the smartphone camera oximetry study by [Hoffman et al in 2022](https://www.nature.com/articles/s41746-022-00665-y).  It can be used to attempt to infer blood oxygen saturation (SpO2) and classify risk of hypoxemia using videos gathered via a smartphone camera using machine learning or analytical methods.  The data is the first gathered using a smartphone camera on a clinically relevant spread of SpO2 levels (70%-100%).
 
 The data was gathered by researchers at the University of Washington and the University of California, San Diego, and is provided free and open source for the community to use for future projects.  More information can be found in the publication
 
