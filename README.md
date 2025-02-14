@@ -66,8 +66,9 @@ A metadata file can be found in data/gt/metadata.csv, which describes the fields
 | Rig FiO2     | Percentage of oxygen delivered to subjec in gas mixture (%)           |
 
 ## Citation
-If you use this data or code in your project, please cite it.  Here's the ACM format:
-* [Add citation later when it's ready.]
+If you use this data or code in your project, please cite it.  Here's the APA format:
+
+Hoffman, J. S., Viswanath, V. K., Tian, C., Ding, X., Thompson, M. J., Larson, E. C., Patel, S. N., & Wang, E. J. (2022). Smartphone camera oximetry in an induced hypoxemia study. _NPJ digital medicine_, 5(1), 146.
 
 ### License
 This data is provided open-source via the MIT license.  For more details, see the [LICENSE file](https://github.com/ubicomplab/oximetry-phone-cam-data/blob/dev3/LICENSE).  We want you to use it for whatever creative projects you can come up with!  
